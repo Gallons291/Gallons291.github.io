@@ -1,0 +1,35 @@
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+nav img{
+    height: auto;
+    width: 3.25em;
+    margin-left: 2em;
+}
+
+nav .socials{
+    margin-right: 2em;
+}
+
+.nav-link{
+    margin-right: 2em;
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+
+
+.nav-link:hover{
+    color:#e5383b;
+}
+
+/* SELECTION */
+nav ::selection{
+    background-color: #e5383b;
+}

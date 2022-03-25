@@ -1,0 +1,72 @@
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header img{
+    width: 100%;
+    max-width: 30em;
+    height: auto;
+}
+
+header .lc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.green-flag{
+    color: #4ad66d;
+}
+
+.red-flag{
+    color: #e5383b;
+}
+
+.about{
+    padding-bottom: 4em;
+}
+
+.about h1{
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.about h2{
+    font-size: 2em;
+}
+
+.about h3{
+    font-size: 1.3em;
+}
+
+.cta-btn{
+    font-size: 1.2em;
+    border: #e5383b solid 3px;
+    width: max-content;
+    padding: 1em;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.cta-btn:hover{
+    background-color: #e5383b;
+}
+
+
+/* SELECTION */
+
+.about h1::selection,
+header img::selection{
+    background-color: #fff;
+}
+
+.about h2::selection,
+.about h3::selection,
+.cta-btn::selection,
+.about span::selection{
+    background-color: #e5383b;
+    color: #fff;
+}

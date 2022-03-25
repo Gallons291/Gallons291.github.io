@@ -1,0 +1,36 @@
+#works{
+    margin: 3em 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-container{
+    padding: 2em 5em;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    list-style: none;
+}
+
+.work-title{
+    font-size: 3em;
+    color: #e5383b;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.work-title:hover{
+    color: #e84a4d;
+}
+
+
+/* SELECTION */
+
+.work-title::selection{
+    background-color: #fff;
+}

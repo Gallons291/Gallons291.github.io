@@ -1,0 +1,39 @@
+#skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5383b;
+    border-top: 1em #fff solid;
+    border-bottom: 1em #fff solid;
+    padding: 1em 0;
+}
+
+#skills .section-title{
+    text-decoration: underline #fff;
+}
+
+.skill-container{
+    padding: 3em 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 16.5%);
+    align-items: center;
+    justify-items: center;
+}
+
+.skill-img{
+    width: auto;
+    height: 5rem;
+}
+
+
+/* SELECTION */
+
+#skills ::selection{
+    background-color: #fff;
+}
+
+#skills .section-title::selection{
+    color: #e5383b;
+}

@@ -1,0 +1,24 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: #fff 1em solid;
+    padding-top: 1em;
+    margin-top: auto;
+}
+
+footer h5{
+    font-size: 1em;
+    margin: 0;
+    padding-bottom: 0.75em;
+}
+
+footer h5 i{
+    color: #e5383b;
+}
+
+/* SELECTION */
+footer ::selection{
+    background-color: #e5383b;
+}

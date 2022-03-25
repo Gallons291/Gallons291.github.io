@@ -1,0 +1,36 @@
+
+
+#error{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#error h4{
+    font-size: 2em;
+    color: #e5383b;
+}
+
+#error a{
+    font-size: 1.75em;
+    padding: 0.5em;
+    border: solid 3px #e5383b;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+#error a:hover{
+    background-color: #e5383b;
+}
+
+/* SELECTION */
+
+#error h4::selection{
+    background-color: #fff;
+}
+
+#error a::selection{
+    background-color: #e5383b;
+}
